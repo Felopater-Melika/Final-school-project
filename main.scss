@@ -12,6 +12,54 @@
     margin-top: 0px;
 }
 
+.bio-body {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.bio {
+    width: 700px;
+    margin: 40px;
+}
+
+.me {
+    width: 20%;
+}
+
+.schools {
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+    .table {
+        width: 50%;
+        border-radius: 50%;
+    }
+}
+
+.list {
+    display: grid;
+    place-items: center;
+    ul {
+        width: 20%;
+        li {
+            text-align: center;
+        }
+    }
+}
+
+.vacation {
+    width: 400px;
+}
+
+.face {
+    width: 300px;
+}
+
+.beech {
+    width: 100%;
+}
+
 // * {
 //     box-sizing: border-box;
 // }
